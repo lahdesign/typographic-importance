@@ -1,0 +1,116 @@
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 2fr));
+    grid-template-rows: repeat(6, 200px);
+    grid-gap: 10px;
+    background-color: white;
+    padding: 10px;
+  }
+  
+.grid-container > div {
+    background-color: lightgray;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10pt;
+    line-height: 15pt;
+/* where the document padding is set */
+    padding-left:10px;
+}
+.boxOne{
+     padding: 10pt;
+}
+.bold{font-size: 15pt}
+
+.boxTwo{
+    padding-top: 60pt;
+    padding-left: 10pt;
+}
+.boxThree{
+    padding-top: 20pt;
+    padding-left: 30pt;
+}
+.align{
+    padding-left: 30pt}
+
+.boxFour{
+    padding-left: 70pt;
+    line-height: 10pt}
+
+.fourB{
+    padding-left: 10pt;
+    line-height: 20pt}
+
+.boxFive{
+    padding: 20pt;}
+
+.openSpacing{
+    letter-spacing: 10pt}
+
+.boxSeven{
+    color: dimgrey;
+    padding:20pt;}
+
+.sevenA{
+    color: black}
+
+.boxEight {
+    font-style: italic;
+}   
+
+.boxEight p {
+    color: darkgray
+}
+
+.eightA {
+    color: black;
+}
+
+.boxNine
+{background-color:rgb(97, 97, 97) !important}
+
+.nineA{
+    color: white;}
+.ninthB{
+    font-size: 18pt;}
+
+.sixthA{
+    font-stretch: expanded
+}
+
+.vertical{
+    /* writing-mode:vertical-rl; */
+    transform:rotate(270deg);
+    /* padding-left: -70px !important; */
+    margin-left: -60px !important;
+    
+}
+
+.bigBold {
+    font-weight: bold;
+    font-size: 20px;
+}   
+
+.horizontal {
+    float: right;
+    margin: -42px;
+    padding-left: -10px
+}
+
+.indent {
+    padding-left: 40px;
+}
+
+.leftOpen{
+    padding-left: 10px;
+    margin:-9px;
+    line-height: 2;
+}
+
+.rightTight {
+    padding-left: 100px;
+    line-height: 1;
+
+}
+.marginNine {
+    padding-left: 30px;
+}
